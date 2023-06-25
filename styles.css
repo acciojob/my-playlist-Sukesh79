@@ -1,1 +1,28 @@
 /*  your css code here. If applicable */
+body{
+	display:flex;
+	flex-direction:column;
+	background-color:#cccccc;
+	align-items:center;
+}
+ul{
+	list-style-type:none;
+}
+a{
+	text-decoration:none;
+}
+.player_one{
+	width:90vw;
+	background-color:white;
+	margin-left:10px;
+	margin-right:10px;
+	
+}
+.player_two{
+	width:320px;
+	background-color:white;
+	padding:10px
+}
+video{
+	object-fit:cover;
+}
